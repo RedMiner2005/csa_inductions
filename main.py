@@ -8,7 +8,7 @@ from libgen_api import LibgenSearch
 from urllib.request import urlretrieve
 
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Users\\praty\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract'
+pytesseract.pytesseract.tesseract_cmd = r'<YOUR_TESSERACT_EXECUTABLE_LOCATION>'
 
 
 def get_camera() -> Image:
